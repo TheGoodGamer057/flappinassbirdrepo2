@@ -17,8 +17,6 @@ FetchContent_Declare(
 set(BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(raylib)
 
-add_definitions(-DRES_PATH="${CMAKE_CURRENT_SOURCE_DIR}/assets/")
-
 add_executable(${PROJECT_NAME} src/main.cpp)
 
 target_include_directories(rytm PRIVATE "${CMAKE_SOURCE_DIR}/includes")
