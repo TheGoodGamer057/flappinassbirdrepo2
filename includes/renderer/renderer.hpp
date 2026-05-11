@@ -7,7 +7,7 @@ void InitGameSys(int width, int height, const char *title, int targetFPS = 120)
 {
     ::InitWindow(width, height, title);
     ::SetTargetFPS(targetFPS);
-    std::print("Initial Game System (void InitGameSys()) started at {} FPS\n")
+    std::print("Initial Game System (void InitGameSys()) started at {} FPS\n");
 }
 
 bool isRunning()
